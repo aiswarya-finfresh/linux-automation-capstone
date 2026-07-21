@@ -1,0 +1,2 @@
+0 2 * * * /bin/bash /root/capstone/scripts/backup.sh /root/capstone/data
+*/15 * * * * /bin/bash /root/capstone/scripts/monitor.sh
