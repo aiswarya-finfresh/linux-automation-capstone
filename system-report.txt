@@ -1,0 +1,32 @@
+=== OS & KERNEL VERSION ===
+Linux a8aa5502ec75 6.12.5-linuxkit #1 SMP Tue Jan 21 10:23:32 UTC 2025 aarch64 GNU/Linux
+PRETTY_NAME="Ubuntu 26.04 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04 (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+
+=== DISK USAGE ===
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          59G   28G   28G  51% /
+
+=== MEMORY USAGE ===
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       491Mi       3.0Gi       612Ki       561Mi       3.3Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+=== TOP 10 CPU PROCESSES ===
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         8  0.0  0.0   5540  3552 pts/1    Ss   15:52   0:00 bash
+root        33  0.0  0.0   4888  3572 pts/2    Ss+  16:02   0:00 bash
+root         1  0.0  0.0   4516  3244 pts/0    Ss+  15:51   0:00 bash
+root        97  0.0  0.0   6220  3032 pts/1    R+   17:14   0:00 ps aux --sort=-%cpu
+root        98  0.0  0.1  16588  5192 pts/1    R+   17:14   0:00 head -n 11
